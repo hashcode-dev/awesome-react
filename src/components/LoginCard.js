@@ -6,7 +6,7 @@ export default function LoginCard() {
     const [password, setPassword] = useState('');
 
     const handleSubmit = () => {
-        alert(`Email: ${email}\nPassword: ${password}`);
+        console.log(`Email: ${email}\nPassword: ${password}`);
     };
 
     return (
